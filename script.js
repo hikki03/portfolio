@@ -95,7 +95,7 @@ if (contactForm) {
         }
 
         // Show success message (in a real application, you would send this to a server)
-        alert('메시지가 성공적으로 전송되었습니다! 빠른 시일 내에 답변드리겠습니다.');
+        alert('프로젝트 상담 요청이 성공적으로 전송되었습니다! 24시간 내에 연락드리겠습니다.');
         
         // Reset form
         this.reset();
@@ -119,7 +119,7 @@ const observer = new IntersectionObserver((entries) => {
 
 // Observe elements for animation
 document.addEventListener('DOMContentLoaded', () => {
-    const animatedElements = document.querySelectorAll('.project-card, .skill-category, .highlight-item');
+    const animatedElements = document.querySelectorAll('.project-card, .service-card, .process-step, .testimonial-card');
     
     animatedElements.forEach(el => {
         el.style.opacity = '0';

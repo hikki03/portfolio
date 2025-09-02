@@ -1,0 +1,150 @@
+/* ==========================================================================
+   Typography Utility Classes
+   ========================================================================== */
+
+/* Display Typography */
+.text-display-1 {
+  font-size: var(--semantic-typography-display-1-font-size);
+  line-height: var(--semantic-typography-display-1-line-height);
+  font-weight: var(--semantic-typography-display-1-font-weight);
+  letter-spacing: var(--semantic-typography-display-1-letter-spacing);
+}
+
+.text-display-2 {
+  font-size: var(--semantic-typography-display-2-font-size);
+  line-height: var(--semantic-typography-display-2-line-height);
+  font-weight: var(--semantic-typography-display-2-font-weight);
+  letter-spacing: var(--semantic-typography-display-2-letter-spacing);
+}
+
+/* Title Typography */
+.text-title-1 {
+  font-size: var(--semantic-typography-title-1-font-size);
+  line-height: var(--semantic-typography-title-1-line-height);
+  font-weight: var(--semantic-typography-title-1-font-weight);
+  letter-spacing: var(--semantic-typography-title-1-letter-spacing);
+}
+
+.text-title-2 {
+  font-size: var(--semantic-typography-title-2-font-size);
+  line-height: var(--semantic-typography-title-2-line-height);
+  font-weight: var(--semantic-typography-title-2-font-weight);
+  letter-spacing: var(--semantic-typography-title-2-letter-spacing);
+}
+
+.text-title-3 {
+  font-size: var(--semantic-typography-title-3-font-size);
+  line-height: var(--semantic-typography-title-3-line-height);
+  font-weight: var(--semantic-typography-title-3-font-weight);
+  letter-spacing: var(--semantic-typography-title-3-letter-spacing);
+}
+
+/* Heading Typography */
+.text-heading-1 {
+  font-size: var(--semantic-typography-heading-1-font-size);
+  line-height: var(--semantic-typography-heading-1-line-height);
+  font-weight: var(--semantic-typography-heading-1-font-weight);
+  letter-spacing: var(--semantic-typography-heading-1-letter-spacing);
+}
+
+.text-heading-2 {
+  font-size: var(--semantic-typography-heading-2-font-size);
+  line-height: var(--semantic-typography-heading-2-line-height);
+  font-weight: var(--semantic-typography-heading-2-font-weight);
+  letter-spacing: var(--semantic-typography-heading-2-letter-spacing);
+}
+
+/* Headline Typography */
+.text-headline-1 {
+  font-size: var(--semantic-typography-headline-1-font-size);
+  line-height: var(--semantic-typography-headline-1-line-height);
+  font-weight: var(--semantic-typography-headline-1-font-weight);
+  letter-spacing: var(--semantic-typography-headline-1-letter-spacing);
+}
+
+.text-headline-2 {
+  font-size: var(--semantic-typography-headline-2-font-size);
+  line-height: var(--semantic-typography-headline-2-line-height);
+  font-weight: var(--semantic-typography-headline-2-font-weight);
+  letter-spacing: var(--semantic-typography-headline-2-letter-spacing);
+}
+
+/* Body Typography */
+.text-body-1-normal {
+  font-size: var(--semantic-typography-body-1-normal-font-size);
+  line-height: var(--semantic-typography-body-1-normal-line-height);
+  font-weight: var(--semantic-typography-body-1-normal-font-weight);
+  letter-spacing: var(--semantic-typography-body-1-normal-letter-spacing);
+}
+
+.text-body-1-reading {
+  font-size: var(--semantic-typography-body-1-reading-font-size);
+  line-height: var(--semantic-typography-body-1-reading-line-height);
+  font-weight: var(--semantic-typography-body-1-reading-font-weight);
+  letter-spacing: var(--semantic-typography-body-1-reading-letter-spacing);
+}
+
+.text-body-2-normal {
+  font-size: var(--semantic-typography-body-2-normal-font-size);
+  line-height: var(--semantic-typography-body-2-normal-line-height);
+  font-weight: var(--semantic-typography-body-2-normal-font-weight);
+  letter-spacing: var(--semantic-typography-body-2-normal-letter-spacing);
+}
+
+.text-body-2-reading {
+  font-size: var(--semantic-typography-body-2-reading-font-size);
+  line-height: var(--semantic-typography-body-2-reading-line-height);
+  font-weight: var(--semantic-typography-body-2-reading-font-weight);
+  letter-spacing: var(--semantic-typography-body-2-reading-letter-spacing);
+}
+
+/* Label Typography */
+.text-label-1-normal {
+  font-size: var(--semantic-typography-label-1-normal-font-size);
+  line-height: var(--semantic-typography-label-1-normal-line-height);
+  font-weight: var(--semantic-typography-label-1-normal-font-weight);
+  letter-spacing: var(--semantic-typography-label-1-normal-letter-spacing);
+}
+
+.text-label-1-reading {
+  font-size: var(--semantic-typography-label-1-reading-font-size);
+  line-height: var(--semantic-typography-label-1-reading-line-height);
+  font-weight: var(--semantic-typography-label-1-reading-font-weight);
+  letter-spacing: var(--semantic-typography-label-1-reading-letter-spacing);
+}
+
+.text-label-2 {
+  font-size: var(--semantic-typography-label-2-font-size);
+  line-height: var(--semantic-typography-label-2-line-height);
+  font-weight: var(--semantic-typography-label-2-font-weight);
+  letter-spacing: var(--semantic-typography-label-2-letter-spacing);
+}
+
+/* Caption Typography */
+.text-caption-1 {
+  font-size: var(--semantic-typography-caption-1-font-size);
+  line-height: var(--semantic-typography-caption-1-line-height);
+  font-weight: var(--semantic-typography-caption-1-font-weight);
+  letter-spacing: var(--semantic-typography-caption-1-letter-spacing);
+}
+
+.text-caption-2 {
+  font-size: var(--semantic-typography-caption-2-font-size);
+  line-height: var(--semantic-typography-caption-2-line-height);
+  font-weight: var(--semantic-typography-caption-2-font-weight);
+  letter-spacing: var(--semantic-typography-caption-2-letter-spacing);
+}
+
+/* Font Weight Utilities */
+.font-regular { font-weight: var(--semantic-font-weight-regular); }
+.font-medium { font-weight: var(--semantic-font-weight-medium); }
+.font-bold { font-weight: var(--semantic-font-weight-bold); }
+
+/* Text Color Utilities */
+.text-primary { color: var(--semantic-color-text-primary); }
+.text-secondary { color: var(--semantic-color-text-secondary); }
+.text-tertiary { color: var(--semantic-color-text-tertiary); }
+.text-quaternary { color: var(--semantic-color-text-quaternary); }
+.text-assistive { color: var(--semantic-color-text-assistive); }
+.text-disabled { color: var(--semantic-color-text-disabled); }
+.text-inverse { color: var(--semantic-color-text-inverse); }

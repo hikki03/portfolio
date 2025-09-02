@@ -1,0 +1,163 @@
+{
+  "semantic": {
+    "typography": {
+      "display": {
+        "1": {
+          "font-size": "56px",
+          "line-height": "72px",
+          "font-weight": 700,
+          "letter-spacing": "-0.0319em",
+          "description": "가장 큰 디스플레이 텍스트 - 히어로 헤드라인"
+        },
+        "2": {
+          "font-size": "40px",
+          "line-height": "52px", 
+          "font-weight": 700,
+          "letter-spacing": "-0.0282em",
+          "description": "큰 디스플레이 텍스트 - 메인 헤드라인"
+        }
+      },
+      "title": {
+        "1": {
+          "font-size": "36px",
+          "line-height": "48px",
+          "font-weight": 700,
+          "letter-spacing": "-0.027em",
+          "description": "대형 타이틀 - 페이지 제목"
+        },
+        "2": {
+          "font-size": "28px",
+          "line-height": "38px",
+          "font-weight": 700,
+          "letter-spacing": "-0.0236em",
+          "description": "중형 타이틀 - 섹션 제목"
+        },
+        "3": {
+          "font-size": "24px",
+          "line-height": "32px",
+          "font-weight": 700,
+          "letter-spacing": "-0.023em",
+          "description": "소형 타이틀 - 서브섹션 제목"
+        }
+      },
+      "heading": {
+        "1": {
+          "font-size": "22px",
+          "line-height": "30px",
+          "font-weight": 500,
+          "letter-spacing": "-0.0194em",
+          "description": "큰 헤딩 - 카드 제목"
+        },
+        "2": {
+          "font-size": "20px",
+          "line-height": "28px",
+          "font-weight": 500,
+          "letter-spacing": "-0.012em",
+          "description": "중간 헤딩 - 컴포넌트 제목"
+        }
+      },
+      "headline": {
+        "1": {
+          "font-size": "18px",
+          "line-height": "26px",
+          "font-weight": 500,
+          "letter-spacing": "-0.002em",
+          "description": "큰 헤드라인 - 리스트 제목"
+        },
+        "2": {
+          "font-size": "17px",
+          "line-height": "24px",
+          "font-weight": 500,
+          "letter-spacing": "0em",
+          "description": "작은 헤드라인 - 항목 제목"
+        }
+      },
+      "body": {
+        "1": {
+          "normal": {
+            "font-size": "16px",
+            "line-height": "24px",
+            "font-weight": 400,
+            "letter-spacing": "0.0057em",
+            "description": "기본 본문 텍스트"
+          },
+          "reading": {
+            "font-size": "16px",
+            "line-height": "26px",
+            "font-weight": 400,
+            "letter-spacing": "0.0057em",
+            "description": "읽기용 본문 텍스트 - 더 넓은 행간"
+          }
+        },
+        "2": {
+          "normal": {
+            "font-size": "15px",
+            "line-height": "22px",
+            "font-weight": 400,
+            "letter-spacing": "0.0096em",
+            "description": "작은 본문 텍스트"
+          },
+          "reading": {
+            "font-size": "15px",
+            "line-height": "24px",
+            "font-weight": 400,
+            "letter-spacing": "0.0096em",
+            "description": "작은 읽기용 본문 텍스트"
+          }
+        }
+      },
+      "label": {
+        "1": {
+          "normal": {
+            "font-size": "14px",
+            "line-height": "20px",
+            "font-weight": 500,
+            "letter-spacing": "0.0145em",
+            "description": "기본 라벨 텍스트"
+          },
+          "reading": {
+            "font-size": "14px",
+            "line-height": "22px",
+            "font-weight": 400,
+            "letter-spacing": "0.0145em",
+            "description": "읽기용 라벨 텍스트"
+          }
+        },
+        "2": {
+          "font-size": "13px",
+          "line-height": "18px",
+          "font-weight": 500,
+          "letter-spacing": "0.0194em",
+          "description": "작은 라벨 텍스트"
+        }
+      },
+      "caption": {
+        "1": {
+          "font-size": "12px",
+          "line-height": "16px",
+          "font-weight": 400,
+          "letter-spacing": "0.0252em",
+          "description": "기본 캡션 텍스트"
+        },
+        "2": {
+          "font-size": "11px",
+          "line-height": "14px",
+          "font-weight": 400,
+          "letter-spacing": "0.0311em",
+          "description": "작은 캡션 텍스트"
+        }
+      }
+    },
+    "font": {
+      "family": {
+        "primary": "Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif",
+        "mono": "'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace"
+      },
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "bold": 700
+      }
+    }
+  }
+}

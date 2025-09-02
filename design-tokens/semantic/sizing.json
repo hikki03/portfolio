@@ -1,0 +1,248 @@
+{
+  "semantic": {
+    "sizing": {
+      "radius": {
+        "xxs": {
+          "value": "{foundation.number.2}",
+          "description": "가장 작은 라운드 - 미묘한 모서리",
+          "figma_reference": "Radius/xxs",
+          "px": 2
+        },
+        "xs": {
+          "value": "{foundation.number.3}",
+          "description": "작은 라운드 - 버튼, 태그",
+          "figma_reference": "Radius/xs", 
+          "px": 4
+        },
+        "sm": {
+          "value": "{foundation.number.4}",
+          "description": "중간 라운드 - 입력 필드",
+          "figma_reference": "Radius/sm",
+          "px": 6
+        },
+        "md": {
+          "value": "{foundation.number.5}",
+          "description": "기본 라운드 - 카드",
+          "figma_reference": "Radius/md",
+          "px": 8
+        },
+        "lg": {
+          "value": "{foundation.number.7}",
+          "description": "큰 라운드 - 패널",
+          "figma_reference": "Radius/lg",
+          "px": 12
+        },
+        "xl": {
+          "value": "{foundation.number.8}",
+          "description": "가장 큰 라운드 - 모달",
+          "figma_reference": "Radius/xl",
+          "px": 16
+        }
+      },
+      "padding": {
+        "1": {
+          "value": "{foundation.number.2}",
+          "description": "최소 패딩 - 컴팩트한 요소",
+          "figma_reference": "Padding/1",
+          "px": 2
+        },
+        "2": {
+          "value": "{foundation.number.3}",
+          "description": "작은 패딩 - 버튼 내부",
+          "figma_reference": "Padding/2", 
+          "px": 4
+        },
+        "3": {
+          "value": "{foundation.number.5}",
+          "description": "기본 패딩 - 일반적인 여백",
+          "figma_reference": "Padding/3",
+          "px": 8
+        },
+        "4": {
+          "value": "{foundation.number.6}",
+          "description": "중간 패딩 - 입력 필드",
+          "figma_reference": "Padding/4",
+          "px": 10
+        },
+        "5": {
+          "value": "{foundation.number.7}",
+          "description": "표준 패딩 - 카드 내부",
+          "figma_reference": "Padding/5",
+          "px": 12
+        },
+        "6": {
+          "value": "{foundation.number.8}",
+          "description": "넓은 패딩 - 섹션 여백",
+          "figma_reference": "Padding/6",
+          "px": 16
+        },
+        "7": {
+          "value": "{foundation.number.9}",
+          "description": "큰 패딩 - 컨테이너",
+          "figma_reference": "Padding/7",
+          "px": 20
+        },
+        "8": {
+          "value": "{foundation.number.10}",
+          "description": "매우 큰 패딩 - 페이지 여백",
+          "figma_reference": "Padding/8",
+          "px": 24
+        },
+        "9": {
+          "value": "{foundation.number.12}",
+          "description": "특대 패딩 - 레이아웃",
+          "figma_reference": "Padding/9",
+          "px": 32
+        },
+        "10": {
+          "value": "{foundation.number.14}",
+          "description": "최대 패딩 - 메인 컨테이너",
+          "figma_reference": "Padding/10",
+          "px": 40
+        }
+      },
+      "gap": {
+        "1": {
+          "value": "{foundation.number.2}",
+          "description": "최소 간격 - 인라인 요소",
+          "figma_reference": "gap/1",
+          "px": 2
+        },
+        "2": {
+          "value": "{foundation.number.3}",
+          "description": "작은 간격 - 관련 요소",
+          "figma_reference": "gap/2",
+          "px": 4
+        },
+        "3": {
+          "value": "{foundation.number.5}",
+          "description": "기본 간격 - 일반 요소",
+          "figma_reference": "gap/3", 
+          "px": 8
+        },
+        "4": {
+          "value": "{foundation.number.7}",
+          "description": "중간 간격 - 그룹 요소",
+          "figma_reference": "gap/4",
+          "px": 12
+        },
+        "5": {
+          "value": "{foundation.number.8}",
+          "description": "표준 간격 - 섹션 내",
+          "figma_reference": "gap/5",
+          "px": 16
+        },
+        "6": {
+          "value": "{foundation.number.9}",
+          "description": "넓은 간격 - 컴포넌트 간",
+          "figma_reference": "gap/6",
+          "px": 20
+        },
+        "7": {
+          "value": "{foundation.number.10}",
+          "description": "큰 간격 - 섹션 간",
+          "figma_reference": "gap/7",
+          "px": 24
+        },
+        "8": {
+          "value": "{foundation.number.12}",
+          "description": "매우 큰 간격 - 주요 블록",
+          "figma_reference": "gap/8",
+          "px": 32
+        },
+        "9": {
+          "value": "{foundation.number.14}",
+          "description": "특대 간격 - 레이아웃 블록",
+          "figma_reference": "gap/9",
+          "px": 40
+        },
+        "10": {
+          "value": "{foundation.number.16}",
+          "description": "최대 간격 - 페이지 섹션",
+          "figma_reference": "gap/10",
+          "px": 48
+        },
+        "11": {
+          "value": "{foundation.number.18}",
+          "description": "초대 간격 - 메이저 섹션",
+          "figma_reference": "gap/11",
+          "px": 64
+        },
+        "12": {
+          "value": "{foundation.number.20}",
+          "description": "극대 간격 - 페이지 간",
+          "figma_reference": "gap/12",
+          "px": 80
+        }
+      },
+      "height": {
+        "1": {
+          "value": "{foundation.number.5}",
+          "description": "최소 높이 - 구분선",
+          "figma_reference": "Height/1",
+          "px": 8
+        },
+        "2": {
+          "value": "{foundation.number.8}",
+          "description": "작은 높이 - 프로그레스 바",
+          "figma_reference": "Height/2",
+          "px": 16
+        },
+        "3": {
+          "value": "{foundation.number.9}",
+          "description": "낮은 높이 - 태그",
+          "figma_reference": "Height/3",
+          "px": 20
+        },
+        "4": {
+          "value": "{foundation.number.10}",
+          "description": "기본 높이 - 작은 버튼",
+          "figma_reference": "Height/4",
+          "px": 24
+        },
+        "5": {
+          "value": "{foundation.number.12}",
+          "description": "표준 높이 - 입력 필드",
+          "figma_reference": "Height/5",
+          "px": 32
+        },
+        "6": {
+          "value": "{foundation.number.14}",
+          "description": "중간 높이 - 일반 버튼",
+          "figma_reference": "Height/6",
+          "px": 40
+        },
+        "7": {
+          "value": "{foundation.number.16}",
+          "description": "큰 높이 - 큰 버튼",
+          "figma_reference": "Height/7",
+          "px": 48
+        },
+        "8": {
+          "value": "{foundation.number.17}",
+          "description": "매우 큰 높이 - 헤더",
+          "figma_reference": "Height/8",
+          "px": 56
+        },
+        "9": {
+          "value": "{foundation.number.18}",
+          "description": "특대 높이 - 히어로 요소",
+          "figma_reference": "Height/9",
+          "px": 64
+        },
+        "10": {
+          "value": "{foundation.number.19}",
+          "description": "초대 높이 - 배너",
+          "figma_reference": "Height/10",
+          "px": 72
+        },
+        "11": {
+          "value": "{foundation.number.20}",
+          "description": "최대 높이 - 네비게이션",
+          "figma_reference": "Height/11",
+          "px": 80
+        }
+      }
+    }
+  }
+}

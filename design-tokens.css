@@ -1,0 +1,365 @@
+/* ==========================================================================
+   Design Tokens - CSS Variables
+   Foundation + Semantic Token System
+   ========================================================================== */
+
+:root {
+  /* ===== Foundation Numbers ===== */
+  --foundation-number-0: 0;
+  --foundation-number-1: 1px;
+  --foundation-number-2: 2px;
+  --foundation-number-3: 4px;
+  --foundation-number-4: 6px;
+  --foundation-number-5: 8px;
+  --foundation-number-6: 10px;
+  --foundation-number-7: 12px;
+  --foundation-number-8: 16px;
+  --foundation-number-9: 20px;
+  --foundation-number-10: 24px;
+  --foundation-number-11: 28px;
+  --foundation-number-12: 32px;
+  --foundation-number-13: 36px;
+  --foundation-number-14: 40px;
+  --foundation-number-15: 44px;
+  --foundation-number-16: 48px;
+  --foundation-number-17: 56px;
+  --foundation-number-18: 64px;
+  --foundation-number-19: 72px;
+  --foundation-number-20: 80px;
+  --foundation-number-21: 96px;
+  --foundation-number-max: 1000px;
+
+  /* ===== Foundation Colors ===== */
+  /* Base Colors */
+  --foundation-color-base-white: #FFFFFF;
+  --foundation-color-base-black: #000000;
+
+  /* Gray Scale */
+  --foundation-color-gray-0: #FFFFFF;
+  --foundation-color-gray-5: #F7F8F9;
+  --foundation-color-gray-10: #EEEFF1;
+  --foundation-color-gray-15: #E6E7E9;
+  --foundation-color-gray-20: #D8DBDE;
+  --foundation-color-gray-25: #CDD1D6;
+  --foundation-color-gray-30: #C2C9CD;
+  --foundation-color-gray-35: #B4BBBB;
+  --foundation-color-gray-40: #A3ABB4;
+  --foundation-color-gray-45: #959E9B;
+  --foundation-color-gray-50: #889292;
+  --foundation-color-gray-55: #7A8590;
+  --foundation-color-gray-60: #6D7583;
+  --foundation-color-gray-65: #616B75;
+  --foundation-color-gray-70: #535E64;
+  --foundation-color-gray-75: #4B525A;
+  --foundation-color-gray-80: #41454E;
+  --foundation-color-gray-85: #33363D;
+  --foundation-color-gray-90: #25282C;
+  --foundation-color-gray-95: #1D1E21;
+  --foundation-color-gray-100: #000000;
+
+  /* Yellow (Primary Brand Color) */
+  --foundation-color-yellow-0: #FFFFFF;
+  --foundation-color-yellow-5: #FEF6ED;
+  --foundation-color-yellow-10: #FEF3CD;
+  --foundation-color-yellow-15: #FEEF5B;
+  --foundation-color-yellow-20: #FDE68A;
+  --foundation-color-yellow-25: #FCD34D;
+  --foundation-color-yellow-30: #FBBF24;
+  --foundation-color-yellow-40: #F7DE68;
+  --foundation-color-yellow-50: #F6D32D;
+  --foundation-color-yellow-60: #EFBC0F;
+  --foundation-color-yellow-70: #D3A70B;
+  --foundation-color-yellow-80: #B7930A;
+
+  /* Red (Danger) */
+  --foundation-color-red-40: #F56565;
+  --foundation-color-red-50: #F12B2B;
+  --foundation-color-red-60: #E73A3A;
+  --foundation-color-red-70: #C53030;
+  --foundation-color-red-80: #991B1B;
+
+  /* Orange (Warning) */
+  --foundation-color-orange-40: #DC2626;
+  --foundation-color-orange-50: #EA580C;
+  --foundation-color-orange-60: #FF5100;
+  --foundation-color-orange-70: #CC4400;
+
+  /* Green (Success) */
+  --foundation-color-green-20: #6EE7B7;
+  --foundation-color-green-50: #22C55E;
+  --foundation-color-green-60: #15803D;
+  --foundation-color-green-70: #166534;
+
+  /* Blue (Info) */
+  --foundation-color-blue-5: #EFF6FF;
+  --foundation-color-blue-50: #1966CC;
+  --foundation-color-blue-60: #1E3A8A;
+  --foundation-color-blue-70: #1E3A8A;
+  --foundation-color-blue-80: #1E3A8A;
+
+  /* Alpha Colors */
+  --foundation-color-alpha-black-0: rgba(0, 0, 0, 0);
+  --foundation-color-alpha-black-10: rgba(0, 0, 0, 0.1);
+  --foundation-color-alpha-black-25: rgba(0, 0, 0, 0.25);
+  --foundation-color-alpha-black-50: rgba(0, 0, 0, 0.5);
+  --foundation-color-alpha-black-75: rgba(0, 0, 0, 0.75);
+  --foundation-color-alpha-black-100: rgba(0, 0, 0, 1);
+  --foundation-color-alpha-white-0: rgba(255, 255, 255, 0);
+  --foundation-color-alpha-white-25: rgba(255, 255, 255, 0.25);
+  --foundation-color-alpha-white-50: rgba(255, 255, 255, 0.5);
+  --foundation-color-alpha-white-75: rgba(255, 255, 255, 0.75);
+  --foundation-color-alpha-white-100: rgba(255, 255, 255, 1);
+
+  /* ===== Semantic Colors ===== */
+  /* Primary (Brand) */
+  --semantic-color-primary-light: var(--foundation-color-yellow-50);
+  --semantic-color-primary-normal: var(--foundation-color-yellow-60);
+  --semantic-color-primary-strong: var(--foundation-color-yellow-70);
+  --semantic-color-primary-heavy: var(--foundation-color-yellow-80);
+
+  /* Text */
+  --semantic-color-text-primary: var(--foundation-color-base-black);
+  --semantic-color-text-secondary: var(--foundation-color-gray-90);
+  --semantic-color-text-tertiary: var(--foundation-color-gray-80);
+  --semantic-color-text-quaternary: var(--foundation-color-gray-60);
+  --semantic-color-text-assistive: var(--foundation-color-gray-40);
+  --semantic-color-text-disabled: var(--foundation-color-gray-30);
+  --semantic-color-text-inverse: var(--foundation-color-base-white);
+
+  /* Background */
+  --semantic-color-background-primary: var(--foundation-color-base-white);
+  --semantic-color-background-secondary: var(--foundation-color-gray-5);
+  --semantic-color-background-tertiary: var(--foundation-color-gray-10);
+  --semantic-color-background-accent: var(--foundation-color-blue-5);
+  --semantic-color-background-overlay: var(--foundation-color-alpha-black-50);
+
+  /* Border */
+  --semantic-color-border-light: rgba(109, 120, 131, 0.1);
+  --semantic-color-border-normal: rgba(109, 120, 131, 0.28);
+  --semantic-color-border-medium: rgba(109, 120, 131, 0.52);
+  --semantic-color-border-strong: var(--foundation-color-gray-50);
+
+  /* Surface */
+  --semantic-color-surface-background: rgba(112, 115, 124, 0.05);
+  --semantic-color-surface-normal: rgba(112, 115, 124, 0.08);
+  --semantic-color-surface-strong: rgba(112, 115, 124, 0.16);
+
+  /* Interaction */
+  --semantic-color-interaction-hover: var(--foundation-color-gray-10);
+  --semantic-color-interaction-active: var(--foundation-color-gray-20);
+  --semantic-color-interaction-selected: var(--semantic-color-primary-light);
+  --semantic-color-interaction-disabled: var(--foundation-color-gray-15);
+  --semantic-color-interaction-focus: var(--semantic-color-primary-normal);
+
+  /* System Colors */
+  --semantic-color-system-success-light: var(--foundation-color-green-20);
+  --semantic-color-system-success-normal: var(--foundation-color-green-50);
+  --semantic-color-system-success-strong: var(--foundation-color-green-60);
+  --semantic-color-system-success-heavy: var(--foundation-color-green-70);
+
+  --semantic-color-system-warning-light: var(--foundation-color-orange-40);
+  --semantic-color-system-warning-normal: var(--foundation-color-orange-50);
+  --semantic-color-system-warning-strong: var(--foundation-color-orange-60);
+  --semantic-color-system-warning-heavy: var(--foundation-color-orange-70);
+
+  --semantic-color-system-danger-light: var(--foundation-color-red-50);
+  --semantic-color-system-danger-normal: var(--foundation-color-red-60);
+  --semantic-color-system-danger-strong: var(--foundation-color-red-70);
+  --semantic-color-system-danger-heavy: var(--foundation-color-red-80);
+
+  --semantic-color-system-info-light: var(--foundation-color-blue-50);
+  --semantic-color-system-info-normal: var(--foundation-color-blue-60);
+  --semantic-color-system-info-strong: var(--foundation-color-blue-70);
+  --semantic-color-system-info-heavy: var(--foundation-color-blue-80);
+
+  /* Material Effects */
+  --semantic-color-material-dimmer-light: var(--foundation-color-alpha-black-25);
+  --semantic-color-material-dimmer-normal: var(--foundation-color-alpha-black-50);
+  --semantic-color-material-dimmer-strong: var(--foundation-color-alpha-black-75);
+
+  /* Static Colors */
+  --semantic-color-static-white: var(--foundation-color-base-white);
+  --semantic-color-static-black: var(--foundation-color-base-black);
+
+  /* ===== Semantic Sizing ===== */
+  /* Radius */
+  --semantic-sizing-radius-xxs: var(--foundation-number-2);
+  --semantic-sizing-radius-xs: var(--foundation-number-3);
+  --semantic-sizing-radius-sm: var(--foundation-number-4);
+  --semantic-sizing-radius-md: var(--foundation-number-5);
+  --semantic-sizing-radius-lg: var(--foundation-number-7);
+  --semantic-sizing-radius-xl: var(--foundation-number-8);
+
+  /* Padding */
+  --semantic-sizing-padding-1: var(--foundation-number-2);
+  --semantic-sizing-padding-2: var(--foundation-number-3);
+  --semantic-sizing-padding-3: var(--foundation-number-5);
+  --semantic-sizing-padding-4: var(--foundation-number-6);
+  --semantic-sizing-padding-5: var(--foundation-number-7);
+  --semantic-sizing-padding-6: var(--foundation-number-8);
+  --semantic-sizing-padding-7: var(--foundation-number-9);
+  --semantic-sizing-padding-8: var(--foundation-number-10);
+  --semantic-sizing-padding-9: var(--foundation-number-12);
+  --semantic-sizing-padding-10: var(--foundation-number-14);
+
+  /* Gap */
+  --semantic-sizing-gap-1: var(--foundation-number-2);
+  --semantic-sizing-gap-2: var(--foundation-number-3);
+  --semantic-sizing-gap-3: var(--foundation-number-5);
+  --semantic-sizing-gap-4: var(--foundation-number-7);
+  --semantic-sizing-gap-5: var(--foundation-number-8);
+  --semantic-sizing-gap-6: var(--foundation-number-9);
+  --semantic-sizing-gap-7: var(--foundation-number-10);
+  --semantic-sizing-gap-8: var(--foundation-number-12);
+  --semantic-sizing-gap-9: var(--foundation-number-14);
+  --semantic-sizing-gap-10: var(--foundation-number-16);
+  --semantic-sizing-gap-11: var(--foundation-number-18);
+  --semantic-sizing-gap-12: var(--foundation-number-20);
+
+  /* Height */
+  --semantic-sizing-height-1: var(--foundation-number-5);
+  --semantic-sizing-height-2: var(--foundation-number-8);
+  --semantic-sizing-height-3: var(--foundation-number-9);
+  --semantic-sizing-height-4: var(--foundation-number-10);
+  --semantic-sizing-height-5: var(--foundation-number-12);
+  --semantic-sizing-height-6: var(--foundation-number-14);
+  --semantic-sizing-height-7: var(--foundation-number-16);
+  --semantic-sizing-height-8: var(--foundation-number-17);
+  --semantic-sizing-height-9: var(--foundation-number-18);
+  --semantic-sizing-height-10: var(--foundation-number-19);
+  --semantic-sizing-height-11: var(--foundation-number-20);
+
+  /* ===== Legacy Support (기존 변수들과 호환) ===== */
+  /* 기존 프로젝트와의 호환성을 위한 매핑 */
+  --primary-color: var(--semantic-color-primary-normal);
+  --secondary-color: var(--semantic-color-primary-strong);
+  --accent-color: var(--semantic-color-primary-light);
+  --text-dark: var(--semantic-color-text-primary);
+  --text-medium: var(--semantic-color-text-secondary);
+  --text-light: var(--semantic-color-text-tertiary);
+  --text-muted: var(--semantic-color-text-assistive);
+  --bg-primary: var(--semantic-color-background-primary);
+  --bg-secondary: var(--semantic-color-background-secondary);
+  --bg-tertiary: var(--semantic-color-background-tertiary);
+  --border-color: var(--semantic-color-border-normal);
+  --border-light: var(--semantic-color-border-light);
+  --border-radius: var(--semantic-sizing-radius-lg);
+  --border-radius-lg: var(--semantic-sizing-radius-xl);
+
+  /* Shadows (기존 유지) */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Gradients */
+  --gradient: linear-gradient(135deg, var(--semantic-color-primary-normal), var(--semantic-color-primary-strong));
+  --gradient-subtle: linear-gradient(135deg, rgba(239, 188, 15, 0.1), rgba(211, 167, 11, 0.1));
+
+  /* ===== Typography ===== */
+  /* Font Family */
+  --semantic-font-family-primary: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  --semantic-font-family-mono: 'SF Mono', Monaco, Inconsolata, 'Roboto Mono', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+
+  /* Font Weights */
+  --semantic-font-weight-regular: 400;
+  --semantic-font-weight-medium: 500;
+  --semantic-font-weight-bold: 700;
+
+  /* Display Typography */
+  --semantic-typography-display-1-font-size: 56px;
+  --semantic-typography-display-1-line-height: 72px;
+  --semantic-typography-display-1-font-weight: var(--semantic-font-weight-bold);
+  --semantic-typography-display-1-letter-spacing: -0.0319em;
+
+  --semantic-typography-display-2-font-size: 40px;
+  --semantic-typography-display-2-line-height: 52px;
+  --semantic-typography-display-2-font-weight: var(--semantic-font-weight-bold);
+  --semantic-typography-display-2-letter-spacing: -0.0282em;
+
+  /* Title Typography */
+  --semantic-typography-title-1-font-size: 36px;
+  --semantic-typography-title-1-line-height: 48px;
+  --semantic-typography-title-1-font-weight: var(--semantic-font-weight-bold);
+  --semantic-typography-title-1-letter-spacing: -0.027em;
+
+  --semantic-typography-title-2-font-size: 28px;
+  --semantic-typography-title-2-line-height: 38px;
+  --semantic-typography-title-2-font-weight: var(--semantic-font-weight-bold);
+  --semantic-typography-title-2-letter-spacing: -0.0236em;
+
+  --semantic-typography-title-3-font-size: 24px;
+  --semantic-typography-title-3-line-height: 32px;
+  --semantic-typography-title-3-font-weight: var(--semantic-font-weight-bold);
+  --semantic-typography-title-3-letter-spacing: -0.023em;
+
+  /* Heading Typography */
+  --semantic-typography-heading-1-font-size: 22px;
+  --semantic-typography-heading-1-line-height: 30px;
+  --semantic-typography-heading-1-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-heading-1-letter-spacing: -0.0194em;
+
+  --semantic-typography-heading-2-font-size: 20px;
+  --semantic-typography-heading-2-line-height: 28px;
+  --semantic-typography-heading-2-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-heading-2-letter-spacing: -0.012em;
+
+  /* Headline Typography */
+  --semantic-typography-headline-1-font-size: 18px;
+  --semantic-typography-headline-1-line-height: 26px;
+  --semantic-typography-headline-1-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-headline-1-letter-spacing: -0.002em;
+
+  --semantic-typography-headline-2-font-size: 17px;
+  --semantic-typography-headline-2-line-height: 24px;
+  --semantic-typography-headline-2-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-headline-2-letter-spacing: 0em;
+
+  /* Body Typography */
+  --semantic-typography-body-1-normal-font-size: 16px;
+  --semantic-typography-body-1-normal-line-height: 24px;
+  --semantic-typography-body-1-normal-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-body-1-normal-letter-spacing: 0.0057em;
+
+  --semantic-typography-body-1-reading-font-size: 16px;
+  --semantic-typography-body-1-reading-line-height: 26px;
+  --semantic-typography-body-1-reading-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-body-1-reading-letter-spacing: 0.0057em;
+
+  --semantic-typography-body-2-normal-font-size: 15px;
+  --semantic-typography-body-2-normal-line-height: 22px;
+  --semantic-typography-body-2-normal-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-body-2-normal-letter-spacing: 0.0096em;
+
+  --semantic-typography-body-2-reading-font-size: 15px;
+  --semantic-typography-body-2-reading-line-height: 24px;
+  --semantic-typography-body-2-reading-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-body-2-reading-letter-spacing: 0.0096em;
+
+  /* Label Typography */
+  --semantic-typography-label-1-normal-font-size: 14px;
+  --semantic-typography-label-1-normal-line-height: 20px;
+  --semantic-typography-label-1-normal-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-label-1-normal-letter-spacing: 0.0145em;
+
+  --semantic-typography-label-1-reading-font-size: 14px;
+  --semantic-typography-label-1-reading-line-height: 22px;
+  --semantic-typography-label-1-reading-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-label-1-reading-letter-spacing: 0.0145em;
+
+  --semantic-typography-label-2-font-size: 13px;
+  --semantic-typography-label-2-line-height: 18px;
+  --semantic-typography-label-2-font-weight: var(--semantic-font-weight-medium);
+  --semantic-typography-label-2-letter-spacing: 0.0194em;
+
+  /* Caption Typography */
+  --semantic-typography-caption-1-font-size: 12px;
+  --semantic-typography-caption-1-line-height: 16px;
+  --semantic-typography-caption-1-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-caption-1-letter-spacing: 0.0252em;
+
+  --semantic-typography-caption-2-font-size: 11px;
+  --semantic-typography-caption-2-line-height: 14px;
+  --semantic-typography-caption-2-font-weight: var(--semantic-font-weight-regular);
+  --semantic-typography-caption-2-letter-spacing: 0.0311em;
+}

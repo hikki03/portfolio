@@ -1,0 +1,316 @@
+{
+  "figma_to_semantic": {
+    "description": "Figma Sementic.json 토큰을 Semantic Token으로 매핑",
+    "mappings": {
+      "Primary/Light": {
+        "figma_reference": "color/yellow/50",
+        "semantic_token": "semantic.color.primary.light",
+        "hex_value": "#F6D32D",
+        "usage": "Primary 액션의 연한 상태, 호버 배경"
+      },
+      "Primary/Normal": {
+        "figma_reference": "color/yellow/60", 
+        "semantic_token": "semantic.color.primary.normal",
+        "hex_value": "#EFBC0F",
+        "usage": "기본 Primary 컬러, CTA 버튼"
+      },
+      "Primary/Strong": {
+        "figma_reference": "color/yellow/70",
+        "semantic_token": "semantic.color.primary.strong", 
+        "hex_value": "#D3A70B",
+        "usage": "강한 Primary 강조"
+      },
+      "Primary/Heavy": {
+        "figma_reference": "color/yellow/80",
+        "semantic_token": "semantic.color.primary.heavy",
+        "hex_value": "#B7930A", 
+        "usage": "최대 Primary 강조"
+      },
+      "Primary/Primary-Light/Light": {
+        "figma_reference": "color/yellow/10",
+        "semantic_token": "semantic.color.primary.background.light",
+        "hex_value": "#FEF3CD",
+        "usage": "Primary 연한 배경"
+      },
+      "Primary/Primary-Light/Normal": {
+        "figma_reference": "color/yellow/15", 
+        "semantic_token": "semantic.color.primary.background.normal",
+        "hex_value": "#FEEF5B",
+        "usage": "Primary 일반 배경"
+      },
+      "Primary/Primary-Light/Strong": {
+        "figma_reference": "color/yellow/20",
+        "semantic_token": "semantic.color.primary.background.strong", 
+        "hex_value": "#FDE68A",
+        "usage": "Primary 강한 배경"
+      },
+      "Primary/Primary-Light/Heavy": {
+        "figma_reference": "color/yellow/30",
+        "semantic_token": "semantic.color.primary.background.heavy",
+        "hex_value": "#FBBF24",
+        "usage": "Primary 매우 강한 배경"
+      },
+      "Label/Strong": {
+        "figma_reference": "color/common/100",
+        "semantic_token": "semantic.color.text.primary",
+        "hex_value": "#000000", 
+        "usage": "가장 강한 텍스트, 제목"
+      },
+      "Label/Normal": {
+        "figma_reference": "color/gray/90",
+        "semantic_token": "semantic.color.text.secondary",
+        "hex_value": "#25282C",
+        "usage": "일반 본문 텍스트"
+      },
+      "Label/Neutral": {
+        "figma_reference": "color/gray/80", 
+        "semantic_token": "semantic.color.text.tertiary",
+        "hex_value": "#41454E",
+        "usage": "보조 정보 텍스트"
+      },
+      "Label/Alternative": {
+        "figma_reference": "color/gray/60",
+        "semantic_token": "semantic.color.text.quaternary", 
+        "hex_value": "#6D7583",
+        "usage": "메타 정보 텍스트"
+      },
+      "Label/Assistive": {
+        "figma_reference": "color/gray/40",
+        "semantic_token": "semantic.color.text.assistive",
+        "hex_value": "#A3ABB4",
+        "usage": "보조 가이드 텍스트"
+      },
+      "Label/Disable": {
+        "figma_reference": "color/gray/30",
+        "semantic_token": "semantic.color.text.disabled", 
+        "hex_value": "#C2C9CD",
+        "usage": "비활성 텍스트"
+      },
+      "Label/White": {
+        "figma_reference": "color/common/0",
+        "semantic_token": "semantic.color.text.inverse",
+        "hex_value": "#FFFFFF",
+        "usage": "반전 텍스트"
+      },
+      "Background/Normal": {
+        "figma_reference": "color/common/0",
+        "semantic_token": "semantic.color.background.primary",
+        "hex_value": "#FFFFFF",
+        "usage": "기본 배경"
+      },
+      "Background/Alternative": {
+        "figma_reference": "color/gray/5", 
+        "semantic_token": "semantic.color.background.secondary",
+        "hex_value": "#F7F8F9",
+        "usage": "보조 배경"
+      },
+      "Background/Bluetone": {
+        "figma_reference": "blue/5",
+        "semantic_token": "semantic.color.background.accent",
+        "hex_value": "#EFF6FF", 
+        "usage": "강조 배경"
+      },
+      "Line/Neutral": {
+        "figma_reference": "Cool Neutral/50, Opacity/16",
+        "semantic_token": "semantic.color.border.light",
+        "rgba_value": "rgba(109, 120, 131, 0.15)",
+        "usage": "연한 테두리"
+      },
+      "Line/Normal": {
+        "figma_reference": "Cool Neutral/50, Opacity/22", 
+        "semantic_token": "semantic.color.border.normal",
+        "rgba_value": "rgba(109, 120, 131, 0.28)",
+        "usage": "기본 테두리"
+      },
+      "Line/Strong": {
+        "figma_reference": "Cool Neutral/50, Opacity/52",
+        "semantic_token": "semantic.color.border.medium", 
+        "rgba_value": "rgba(109, 120, 131, 0.52)",
+        "usage": "강한 테두리"
+      },
+      "Line/Alternative": {
+        "figma_reference": "Cool Neutral/50, Opacity/8",
+        "semantic_token": "semantic.color.border.subtle",
+        "rgba_value": "rgba(109, 120, 131, 0.1)", 
+        "usage": "미묘한 테두리"
+      },
+      "Fill/Alternative": {
+        "figma_reference": "Cool Neutral/50, Opacity/5",
+        "semantic_token": "semantic.color.surface.background",
+        "rgba_value": "rgba(112, 115, 124, 0.05)",
+        "usage": "표면 배경"
+      },
+      "Fill/Normal": {
+        "figma_reference": "Cool Neutral/50, Opacity/8",
+        "semantic_token": "semantic.color.surface.normal",
+        "rgba_value": "rgba(112, 115, 124, 0.08)", 
+        "usage": "일반 표면"
+      },
+      "Fill/Strong": {
+        "figma_reference": "Cool Neutral/50, Opacity/16",
+        "semantic_token": "semantic.color.surface.strong",
+        "rgba_value": "rgba(112, 115, 124, 0.16)",
+        "usage": "강한 표면"
+      },
+      "Interaction/Inactive": {
+        "figma_reference": "color/gray/10",
+        "semantic_token": "semantic.color.interaction.hover", 
+        "hex_value": "#EEEFF1",
+        "usage": "호버 상태"
+      },
+      "Interaction/Disable": {
+        "figma_reference": "color/gray/15",
+        "semantic_token": "semantic.color.interaction.disabled",
+        "hex_value": "#E6E7E9",
+        "usage": "비활성 상태"
+      },
+      "System/Danger/Light": {
+        "figma_reference": "color/red/50",
+        "semantic_token": "semantic.color.system.danger.light", 
+        "hex_value": "#F12B2B",
+        "usage": "위험 상태 연한 색"
+      },
+      "System/Danger/Normal": {
+        "figma_reference": "color/red/60",
+        "semantic_token": "semantic.color.system.danger.normal",
+        "hex_value": "#E73A3A",
+        "usage": "위험 상태 기본 색"
+      },
+      "System/Danger/Strong": {
+        "figma_reference": "color/red/70", 
+        "semantic_token": "semantic.color.system.danger.strong",
+        "hex_value": "#C53030",
+        "usage": "위험 상태 강한 색"
+      },
+      "System/Danger/Heavy": {
+        "figma_reference": "color/red/80",
+        "semantic_token": "semantic.color.system.danger.heavy",
+        "hex_value": "#991B1B",
+        "usage": "위험 상태 가장 진한 색"
+      },
+      "System/Warning/Light": {
+        "figma_reference": "color/orange/40",
+        "semantic_token": "semantic.color.system.warning.light",
+        "hex_value": "#DC2626", 
+        "usage": "경고 상태 연한 색"
+      },
+      "System/Warning/Normal": {
+        "figma_reference": "color/orange/50", 
+        "semantic_token": "semantic.color.system.warning.normal",
+        "hex_value": "#EA580C",
+        "usage": "경고 상태 기본 색"
+      },
+      "System/Warning/Strong": {
+        "figma_reference": "color/orange/60",
+        "semantic_token": "semantic.color.system.warning.strong",
+        "hex_value": "#FF5100",
+        "usage": "경고 상태 강한 색"
+      },
+      "System/Warning/Heavy": {
+        "figma_reference": "color/orange/70",
+        "semantic_token": "semantic.color.system.warning.heavy",
+        "hex_value": "#CC4400", 
+        "usage": "경고 상태 가장 진한 색"
+      },
+      "System/Success/Light": {
+        "figma_reference": "color/blue/50",
+        "semantic_token": "semantic.color.system.info.light",
+        "hex_value": "#1966CC",
+        "usage": "정보/성공 상태 연한 색 (Figma에서는 blue 사용)"
+      },
+      "System/Success/Normal": {
+        "figma_reference": "color/blue/60",
+        "semantic_token": "semantic.color.system.info.normal", 
+        "hex_value": "#1E3A8A",
+        "usage": "정보/성공 상태 기본 색"
+      },
+      "System/Success/Strong": {
+        "figma_reference": "color/blue/70",
+        "semantic_token": "semantic.color.system.info.strong",
+        "hex_value": "#1E3A8A",
+        "usage": "정보/성공 상태 강한 색"
+      },
+      "System/Success/Heavy": {
+        "figma_reference": "color/blue/80",
+        "semantic_token": "semantic.color.system.info.heavy",
+        "hex_value": "#1E3A8A", 
+        "usage": "정보/성공 상태 가장 진한 색"
+      },
+      "Material/Dimmer/Light": {
+        "figma_reference": "color/alpha/black25",
+        "semantic_token": "semantic.color.material.dimmer.light",
+        "rgba_value": "rgba(0, 0, 0, 0.25)",
+        "usage": "연한 딤드 효과"
+      },
+      "Material/Dimmer/Normal": {
+        "figma_reference": "color/alpha/black50",
+        "semantic_token": "semantic.color.material.dimmer.normal", 
+        "rgba_value": "rgba(0, 0, 0, 0.5)",
+        "usage": "기본 딤드 효과"
+      },
+      "Material/Dimmer/Strong": {
+        "figma_reference": "color/alpha/black75",
+        "semantic_token": "semantic.color.material.dimmer.strong",
+        "rgba_value": "rgba(0, 0, 0, 0.75)",
+        "usage": "강한 딤드 효과"
+      },
+      "Static/White": {
+        "figma_reference": "color/common/0",
+        "semantic_token": "semantic.color.static.white",
+        "hex_value": "#FFFFFF",
+        "usage": "정적 흰색"
+      },
+      "Static/Black": {
+        "figma_reference": "color/common/100", 
+        "semantic_token": "semantic.color.static.black",
+        "hex_value": "#000000",
+        "usage": "정적 검정"
+      }
+    }
+  },
+  "semantic_categories": {
+    "primary": {
+      "description": "브랜드 메인 컬러 시스템",
+      "tokens": ["light", "normal", "strong", "heavy"],
+      "base_color": "yellow"
+    },
+    "text": {
+      "description": "텍스트 컬러 시스템", 
+      "tokens": ["primary", "secondary", "tertiary", "quaternary", "assistive", "disabled", "inverse"],
+      "base_color": "gray"
+    },
+    "background": {
+      "description": "배경 컬러 시스템",
+      "tokens": ["primary", "secondary", "tertiary", "accent", "overlay"],
+      "base_colors": ["white", "gray", "blue"]
+    },
+    "border": {
+      "description": "테두리 컬러 시스템",
+      "tokens": ["light", "normal", "medium", "strong"],
+      "opacity_based": true
+    },
+    "surface": {
+      "description": "표면 컬러 시스템",
+      "tokens": ["background", "normal", "strong"], 
+      "opacity_based": true
+    },
+    "interaction": {
+      "description": "상호작용 상태 컬러",
+      "tokens": ["hover", "active", "selected", "disabled", "focus"]
+    },
+    "system": {
+      "description": "시스템 피드백 컬러",
+      "subcategories": ["success", "warning", "danger", "info"],
+      "tokens": ["light", "normal", "strong", "heavy"]
+    },
+    "material": {
+      "description": "머티리얼 효과 컬러",
+      "subcategories": ["dimmer", "backdrop"],
+      "opacity_based": true
+    },
+    "static": {
+      "description": "정적 컬러 (테마 무관)",
+      "tokens": ["white", "black"]
+    }
+  }
+}

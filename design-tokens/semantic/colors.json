@@ -1,0 +1,244 @@
+{
+  "semantic": {
+    "color": {
+      "primary": {
+        "light": {
+          "value": "{foundation.color.yellow.50}",
+          "description": "가장 연한 Primary 컬러 - 배경, 호버 상태"
+        },
+        "normal": {
+          "value": "{foundation.color.yellow.60}",
+          "description": "기본 Primary 컬러 - 메인 액션, CTA"
+        },
+        "strong": {
+          "value": "{foundation.color.yellow.70}",
+          "description": "강한 Primary 컬러 - 중요한 강조"
+        },
+        "heavy": {
+          "value": "{foundation.color.yellow.80}",
+          "description": "가장 진한 Primary 컬러 - 최대 강조"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{foundation.color.base.black}",
+          "description": "주요 텍스트 - 제목, 중요한 내용"
+        },
+        "secondary": {
+          "value": "{foundation.color.gray.90}",
+          "description": "보조 텍스트 - 일반 본문"
+        },
+        "tertiary": {
+          "value": "{foundation.color.gray.80}",
+          "description": "3차 텍스트 - 부가 정보"
+        },
+        "quaternary": {
+          "value": "{foundation.color.gray.60}",
+          "description": "4차 텍스트 - 메타 정보"
+        },
+        "assistive": {
+          "value": "{foundation.color.gray.40}",
+          "description": "보조 정보 텍스트 - 힌트, 가이드"
+        },
+        "disabled": {
+          "value": "{foundation.color.gray.30}",
+          "description": "비활성 텍스트"
+        },
+        "inverse": {
+          "value": "{foundation.color.base.white}",
+          "description": "반전 텍스트 - 어두운 배경 위"
+        }
+      },
+      "background": {
+        "primary": {
+          "value": "{foundation.color.base.white}",
+          "description": "기본 배경색"
+        },
+        "secondary": {
+          "value": "{foundation.color.gray.5}",
+          "description": "보조 배경색 - 섹션 구분"
+        },
+        "tertiary": {
+          "value": "{foundation.color.gray.10}",
+          "description": "3차 배경색 - 카드, 패널"
+        },
+        "accent": {
+          "value": "{foundation.color.blue.5}",
+          "description": "강조 배경색 - 특별한 영역"
+        },
+        "overlay": {
+          "value": "{foundation.color.alpha.black.50}",
+          "description": "오버레이 배경 - 모달, 딤드"
+        }
+      },
+      "border": {
+        "light": {
+          "value": "rgba(109, 120, 131, 0.1)",
+          "description": "연한 테두리 - 미묘한 구분"
+        },
+        "normal": {
+          "value": "rgba(109, 120, 131, 0.28)",
+          "description": "기본 테두리 - 일반적인 구분"
+        },
+        "medium": {
+          "value": "rgba(109, 120, 131, 0.52)",
+          "description": "중간 테두리 - 명확한 구분"
+        },
+        "strong": {
+          "value": "{foundation.color.gray.50}",
+          "description": "강한 테두리 - 강조된 구분"
+        }
+      },
+      "surface": {
+        "background": {
+          "value": "rgba(112, 115, 124, 0.05)",
+          "description": "표면 배경 - 카드 내부"
+        },
+        "normal": {
+          "value": "rgba(112, 115, 124, 0.08)",
+          "description": "일반 표면 - 입력 필드"
+        },
+        "strong": {
+          "value": "rgba(112, 115, 124, 0.16)",
+          "description": "강한 표면 - 활성 상태"
+        }
+      },
+      "interaction": {
+        "hover": {
+          "value": "{foundation.color.gray.10}",
+          "description": "호버 상태 배경"
+        },
+        "active": {
+          "value": "{foundation.color.gray.20}",
+          "description": "활성 상태 배경"
+        },
+        "selected": {
+          "value": "{foundation.color.primary.light}",
+          "description": "선택된 상태"
+        },
+        "disabled": {
+          "value": "{foundation.color.gray.15}",
+          "description": "비활성 상태 배경"
+        },
+        "focus": {
+          "value": "{foundation.color.primary.normal}",
+          "description": "포커스 상태 - 아웃라인"
+        }
+      },
+      "system": {
+        "success": {
+          "light": {
+            "value": "{foundation.color.green.20}",
+            "description": "성공 상태 - 연한 배경"
+          },
+          "normal": {
+            "value": "{foundation.color.green.50}",
+            "description": "성공 상태 - 기본"
+          },
+          "strong": {
+            "value": "{foundation.color.green.60}",
+            "description": "성공 상태 - 강조"
+          },
+          "heavy": {
+            "value": "{foundation.color.green.70}",
+            "description": "성공 상태 - 최대 강조"
+          }
+        },
+        "warning": {
+          "light": {
+            "value": "{foundation.color.orange.40}",
+            "description": "경고 상태 - 연한 배경"
+          },
+          "normal": {
+            "value": "{foundation.color.orange.50}",
+            "description": "경고 상태 - 기본"
+          },
+          "strong": {
+            "value": "{foundation.color.orange.60}",
+            "description": "경고 상태 - 강조"
+          },
+          "heavy": {
+            "value": "{foundation.color.orange.70}",
+            "description": "경고 상태 - 최대 강조"
+          }
+        },
+        "danger": {
+          "light": {
+            "value": "{foundation.color.red.50}",
+            "description": "위험 상태 - 연한 배경"
+          },
+          "normal": {
+            "value": "{foundation.color.red.60}",
+            "description": "위험 상태 - 기본"
+          },
+          "strong": {
+            "value": "{foundation.color.red.70}",
+            "description": "위험 상태 - 강조"
+          },
+          "heavy": {
+            "value": "{foundation.color.red.80}",
+            "description": "위험 상태 - 최대 강조"
+          }
+        },
+        "info": {
+          "light": {
+            "value": "{foundation.color.blue.50}",
+            "description": "정보 상태 - 연한 배경"
+          },
+          "normal": {
+            "value": "{foundation.color.blue.60}",
+            "description": "정보 상태 - 기본"
+          },
+          "strong": {
+            "value": "{foundation.color.blue.70}",
+            "description": "정보 상태 - 강조"
+          },
+          "heavy": {
+            "value": "{foundation.color.blue.80}",
+            "description": "정보 상태 - 최대 강조"
+          }
+        }
+      },
+      "material": {
+        "dimmer": {
+          "light": {
+            "value": "{foundation.color.alpha.black.25}",
+            "description": "연한 딤드 효과"
+          },
+          "normal": {
+            "value": "{foundation.color.alpha.black.50}",
+            "description": "기본 딤드 효과"
+          },
+          "strong": {
+            "value": "{foundation.color.alpha.black.75}",
+            "description": "강한 딤드 효과"
+          }
+        },
+        "backdrop": {
+          "light": {
+            "value": "rgba(255, 255, 255, 0.8)",
+            "description": "연한 백드롭"
+          },
+          "normal": {
+            "value": "rgba(255, 255, 255, 0.9)",
+            "description": "기본 백드롭"
+          },
+          "strong": {
+            "value": "rgba(255, 255, 255, 0.95)",
+            "description": "강한 백드롭"
+          }
+        }
+      },
+      "static": {
+        "white": {
+          "value": "{foundation.color.base.white}",
+          "description": "정적 흰색 - 테마 무관"
+        },
+        "black": {
+          "value": "{foundation.color.base.black}",
+          "description": "정적 검정 - 테마 무관"
+        }
+      }
+    }
+  }
+}

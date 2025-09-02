@@ -31,15 +31,57 @@ if (hamburger && navMenu) {
     });
 }
 
-// Navbar background on scroll
-window.addEventListener('scroll', () => {
+// Navbar scroll behavior with minimization
+let lastScrollTop = 0;
+let scrollTimer = null;
+
+function handleNavbarScroll() {
     const navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {
-        navbar.style.background = 'rgba(255, 255, 255, 0.98)';
-        navbar.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.1)';
-    } else {
-        navbar.style.background = 'rgba(255, 255, 255, 0.95)';
-        navbar.style.boxShadow = 'none';
+    const currentScroll = window.scrollY;
+    const scrollDelta = Math.abs(currentScroll - lastScrollTop);
+    
+    // Minimum scroll delta to trigger change (prevents jittery behavior)
+    if (scrollDelta < 5) return;
+    
+    // Clear any existing timer
+    if (scrollTimer) {
+        clearTimeout(scrollTimer);
+    }
+    
+    // If we're at the top, always show full navbar
+    if (currentScroll <= 100) {
+        navbar.classList.remove('minimized');
+    }
+    // If scrolling down and past threshold, minimize navbar
+    else if (currentScroll > lastScrollTop && currentScroll > 150) {
+        navbar.classList.add('minimized');
+    }
+    // If scrolling up, show full navbar
+    else if (currentScroll < lastScrollTop) {
+        navbar.classList.remove('minimized');
+    }
+    
+    // Set a timer to ensure navbar stays minimized when scroll stops while scrolling down
+    if (currentScroll > lastScrollTop && currentScroll > 150) {
+        scrollTimer = setTimeout(() => {
+            if (window.scrollY > 150) {
+                navbar.classList.add('minimized');
+            }
+        }, 150);
+    }
+    
+    lastScrollTop = currentScroll;
+}
+
+// Throttle scroll events for better performance
+let ticking = false;
+window.addEventListener('scroll', () => {
+    if (!ticking) {
+        requestAnimationFrame(() => {
+            handleNavbarScroll();
+            ticking = false;
+        });
+        ticking = true;
     }
 });
 
